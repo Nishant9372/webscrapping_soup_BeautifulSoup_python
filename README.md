@@ -82,3 +82,24 @@ print("Data saved successfully!")
 * Built a clean dataset ready for data analysis.
 
 * Strengthened core data analyst skills: data collection, cleaning, and transformation.
+
+
+### Exploratory Data Analysis (EDA)
+
+This section explores the financial and structural characteristics of Indian companies listed in the Forbes Global 2000.
+
+#### Data Cleaning
+- Removed duplicate rows based on `Rank` and `Name`
+- Converted financial columns (`Revenue`, `Profit`, `Assets`, `Value`) to numeric types
+- Handled missing and inconsistent values
+
+#### Summary Statistics
+- Calculated mean, median, standard deviation for key financial metrics
+- Identified outliers and skewed distributions, especially in `Profit` and `Value`
+
+#### Key Visualizations
+- Distribution plots for Revenue, Profit, Assets, and Market Value
+- Top 10 companies by Market Value — led by Reliance Industries, TCS, and HDFC Bank
+- Industry-wise average Profit and Revenue — Banking and Infotech sectors show strong performance
+- Correlation heatmap — moderate positive correlation between Revenue and Market Value
+
